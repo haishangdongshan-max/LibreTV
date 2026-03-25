@@ -533,9 +533,8 @@ function renderDoubanCards(data, container) {
             const originalCoverUrl = item.cover;
             
             // 2. 也准备代理URL作为备选
-            //const proxiedCoverUrl = PROXY_URL + encodeURIComponent(originalCoverUrl);
-            // 2. 使用稳定的 weserv 公共镜像服务作为代理
-            const proxiedCoverUrl = `https://images.weserv.nl/?url=${encodeURIComponent(originalCoverUrl)}`;
+            const proxiedCoverUrl = PROXY_URL + encodeURIComponent(originalCoverUrl);
+
             
             // 为不同设备优化卡片布局
             card.innerHTML = `
