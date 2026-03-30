@@ -1,5 +1,5 @@
 # LibreTV - 免费在线视频搜索与观看平台
-
+20260330 增加nginx反向代理用于显示豆瓣海报
 <div align="center">
   <img src="image/logo.png" alt="LibreTV Logo" width="120">
   <br>
